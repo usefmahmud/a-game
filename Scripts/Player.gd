@@ -18,6 +18,7 @@ func _process(delta):
 			is_moving = true
 		else:
 			position.x = sprite_side_width
+			
 	if Input.is_key_pressed(KEY_LEFT):
 		if position.x > sprite_side_width:
 			move_and_slide(Vector2(-speed,0))
