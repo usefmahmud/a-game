@@ -19,6 +19,10 @@ config/name="a-game"
 run/main_scene="res://Scenes/Main Scenes/Intro.tscn"
 config/icon="res://icon.png"
 
+[display]
+
+window/stretch/mode="viewport"
+
 [gui]
 
 common/drop_mouse_on_gui_input_disabled=true
