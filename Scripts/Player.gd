@@ -2,7 +2,7 @@ extends KinematicBody2D
 
 var scene_width = OS.window_size.x
 const sprite_side_width = 50
-export var speed = 350
+export var speed = 550
 
 var spaceship_idle = preload("res://Sprites/Players/spaceship.png")
 var spaceship_right = preload("res://Sprites/Players/spaceship_right.png")
