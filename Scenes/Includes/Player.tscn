@@ -18,3 +18,5 @@ polygon = PoolVector2Array( 3, -43, 8, -41, 8, -36, 11, -32, 11, -22, 15, -10, 2
 
 [node name="BulletPosition" type="Position2D" parent="."]
 position = Vector2( 0, -37 )
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
